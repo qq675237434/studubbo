@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<setting name="lazyLoadingEnabled" value="false" />
+	</settings>
+	<typeAliases>
+		<!-- 实体别名 -->
+
+		<!-- vo别名 -->		
+	</typeAliases>
+	
+	
+	<!-- 分页插件 -->
+	<!-- <plugins>
+		<plugin interceptor="com.ihome.xtb.charge.pageInteceptor.PageInterceptor">
+			<property name="dialectClassName" value="com.ihome.tz.agent.pageInteceptor.MySQLDialect" />
+		</plugin>
+	</plugins> -->
+</configuration>
