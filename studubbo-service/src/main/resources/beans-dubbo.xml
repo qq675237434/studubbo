@@ -8,5 +8,7 @@
 
 	<dubbo:provider retries="0" timeout="60000"/>
 	<dubbo:consumer check="false" />
+	
 	<dubbo:service interface="com.yi.dubbo.service.IDubboService" ref="dubboService" />
+	<dubbo:service interface="com.yi.dubbo.service.IDynamicService" ref="dynamicService" />
 </beans>
